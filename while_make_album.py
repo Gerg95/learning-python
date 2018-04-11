@@ -1,5 +1,5 @@
-def make_album(artist_name,album_title, track_number = ' '):
-		"""Return a dictionary of albums"""
+def make_album(artist_name,album_title, track_number=''):
+	"""Return a dictionary of albums"""
 	if track_number:
 		album = {'Artist Name' : artist_name, 'Album Title' : album_title,
 		'Number of Tracks' : track_number}
@@ -7,7 +7,7 @@ def make_album(artist_name,album_title, track_number = ' '):
 		album = {'Artist Name' : artist_name, 'Album Title' : album_title}
 	return album
 
-while true:
+while True:
 	print("\nPlease enter album details")
 	print("(enter 'q' at any time to quit)")
 
@@ -16,12 +16,12 @@ while true:
 		break
 
 	album_name = input("Album name: ")
-	if album == 'q':
+	if album_name == 'q':
 		break
 
 	tracks = input("Number of tracks: ")
 	if tracks == 'q':
 		break
 
-	album_details = make_album(artist, album_name, tracks = '')
+	album_details = make_album(artist, album_name, tracks)
 	print(album_details)
