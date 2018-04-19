@@ -14,11 +14,9 @@ while True:
 	artist = input("Artist name: ")
 	if artist == 'q':
 		break
-
 	album_name = input("Album name: ")
 	if album_name == 'q':
 		break
-
 	tracks = input("Number of tracks: ")
 	if tracks == 'q':
 		break
