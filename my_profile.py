@@ -7,5 +7,4 @@ def my_profile(first,last,**my_info):
 	print(my_profile)
 	return my_profile
 
-my_profile('Greg','Evans', Location = 'London',
-	Occupation = 'Intern', needs = 'food')
+my_profile('Greg','Evans', Location = 'London', Occupation = 'Intern', needs = 'food')
